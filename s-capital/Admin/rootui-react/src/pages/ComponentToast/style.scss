@@ -1,0 +1,326 @@
+.reference_heading{
+    padding: 10px 20px !important;
+  }
+  .display_search{
+    display: inline-flex;
+  }
+  .heading_top{
+    margin-top: -1px;
+  }
+  .display_inline_ref{
+    display: inline-flex !important;
+  }
+  .width_data_ref{
+    width: 140px;
+    margin-bottom: 7px;
+  }
+  .width_data_ref_img{
+    font-size: 15px;
+      font-weight: 600;
+  }
+  .value_mar{
+    margin-left: 10px;
+  }
+  .heading_reference{
+      background-color: #f8f8f8;
+  }
+  html.rui-night-mode .heading_reference {
+    background-color: #292f38 !important;
+  }
+  .my_startt span{
+    width: 64%;
+    text-transform: capitalize;
+  }
+  .inside_rowww{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .my_startt span {
+      width: 50% !important;
+  }
+  html.rui-night-mode .hr_ref {
+    border-top: 1px solid rgba(215, 215, 215, 0.1) !important;
+  }
+  .hr_ref{
+    border-top: 1px solid rgba(215, 215, 215, 0.1) !important;
+  }
+  .move_to_ref{
+      width: 100%;
+      margin-left: -16px;
+      display: inline-flex;
+      justify-content: space-between;
+      margin-top: 10px;
+  }
+  .uplodddddd_ref{
+    align-self: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+  
+  }
+  .ttt_1_ref{
+    padding-right: 0px;
+    padding-left: 15px;
+  }
+  .scroll_1{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  }
+  .scroll_1::-webkit-scrollbar{
+      height: 5px;
+      width: 3px;
+      background: #fff;
+  }
+  .scroll_1::-webkit-scrollbar-thumb:horizontal{
+      background: #a4a6a8;
+      border-radius: 10px;
+  }
+  html.rui-night-mode .scroll_1::-webkit-scrollbar {
+  height: 5px;
+  width: 3px;
+  background: #292f38 !important;
+  }
+  .table_data{
+  vertical-align: middle !important;
+  padding: 10px 25px !important;
+  text-transform: capitalize;
+  }
+  .table_datas_new{
+  vertical-align: middle !important;
+  padding: 10px 25px !important;
+  font-size: 12px;
+  }
+  .marquee {
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  html.rui-night-mode .box_data {
+  background-color: #292f38 !important;
+  border: 1px solid #454545 !important;
+  }
+  .box_data{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 8px 0px;
+    border: 1px solid #e6ecf0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow-x: hidden;
+    margin-bottom: 8px;
+    margin-top: 9px;
+    border-radius: 10px;
+  }
+  .heading_name_size{
+    font-size: 24px;
+    margin: 3px 21px;
+  }
+  .marquee span {
+    display: inline-block;
+    width: max-content;
+  
+  
+    /* show the marquee just outside the paragraph */
+    will-change: transform;
+  
+  }
+  
+  .marquee span:hover {
+    animation-play-state: running !important;
+    animation: marquee 7s linear infinite;
+  }
+  
+  
+  @keyframes marquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+  }
+  
+  
+  /* Respect user preferences about animations */
+  
+  @media (prefers-reduced-motion: reduce) {
+    .marquee span {
+      animation-iteration-count: 1;
+      animation-duration: 0.01;
+      /* instead of animation: none, so an animationend event is
+      * still available, if previously attached.
+      */
+      width: auto;
+      padding-left: 0;
+    }
+  }
+  .scroll_1::-webkit-scrollbar{
+    height: 5px;
+    width: 3px;
+    background: #ffffff;
+  }
+  .scroll_1::-webkit-scrollbar-thumb:horizontal{
+    background: #a4a6a8;
+    border-radius: 10px;
+  }
+  .scroll_1{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  }
+  html.rui-night-mode .heading_refernce {
+    background-color: #292f38 !important;
+  }
+  .heading_refernce{
+    // background-color: #f8f8f8;
+  }
+  .mycalendar{
+    overflow-x: hidden ;
+    overflow-y: scroll;
+  }
+  .employee_spinner_1{
+    justify-content: center;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-left:48%;
+    font-size: 14px;
+    z-index: 1
+  }
+  .mycalendar::-webkit-scrollbar
+  {
+    width: 1px;
+    background-color:#e6ecf0 !important;
+  }
+  .height_sales_ref {
+  border-right: 1px solid #e6ecf0 !important;
+  }
+  
+  html.rui-night-mode body .height_sales_ref{
+  border-right: 1px solid #626973 !important;
+  }
+  .mycalendar::-webkit-scrollbar-thumb
+  {
+    border-radius: 1px;
+    background-color:#e6ecf0 !important;
+  }
+  html.rui-night-mode .mycalendar::-webkit-scrollbar-track
+  {
+    border-radius: 1px;
+    background-color: #626973 !important;
+  }
+  html.rui-night-mode .mycalendar::-webkit-scrollbar
+  {
+    width: 1px;
+    background-color: #626973 !important;
+  }
+  html.rui-night-mode .mycalendar::-webkit-scrollbar-thumb
+  {
+    border-radius: 1px;
+   background-color:#626973 !important;
+  }
+  
+  .test_collapse{
+    animation: fadein 1.25s;
+      -moz-animation: fadein 1.25s;
+      -webkit-animation: fadein 1.25s;
+      -o-animation: fadein 1.25s;
+  }
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  @-moz-keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  @-webkit-keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  @-o-keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @media (max-width: 768px){
+  
+  }
+  
+
+
+//   Khushboo csss
+
+.input_data{
+    width: 275px;
+    margin-right: 10px;
+}
+.show_tabs_for_user{
+    width: 300px;
+}
+.show_tabs_for_user ul{
+    width: 100%;
+}
+.show_tabs_for_user li{
+    width: 50%;
+}
+.show_tabs_for_user a{
+    justify-content: center;
+    padding: 6px 15px !important;
+}
+.diplay_end{
+    justify-content: flex-end;
+}
+.nav-pills .task_new.active {
+    color: #fff !important;
+    background-color: #fdbf21 !important;
+}
+.nav-pills .col_log_new.active {
+    color: #fff !important;
+    background-color: #32bfc8 !important;
+}
+
+.time_data_new{
+    font-style: italic;
+    margin-top: -6px;
+    font-size: 12px;
+  }
+
+  .camp_table{
+    padding: 10px 25px !important;
+    vertical-align: middle  !important;
+    text-transform: capitalize;
+    line-height: 20px !important;
+}
+.task_user_{
+    padding: 2px 20px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+.task_haeding_new{
+    // margin-top: 23px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-weight: 700;
+}
+.employee_spinner_1{
+    justify-content: center;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-left:48%;
+    font-size: 14px;
+    z-index: 1
+  }

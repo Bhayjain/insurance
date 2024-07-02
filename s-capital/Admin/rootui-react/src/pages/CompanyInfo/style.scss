@@ -1,0 +1,126 @@
+//form//
+
+.CompanyInfoTitle{
+    padding: 15px 15px !important;
+}
+.CompanyInfoTitle h1{
+    margin-top: 0px;
+    margin-bottom: -7px;
+}
+.main_form{
+    margin-top: 40px;
+
+}
+.my_form{
+    padding-left: 33px;
+    padding-right: 33px;
+}
+.my_save_button{
+    text-align-last: end;
+    padding-inline-end: 20px;
+    margin-top: 10px;
+}
+.my_row_padding{
+    margin-top: -10px ;
+}
+.my_img_btn{
+    position:absolute;
+    border-radius:100px;
+    border:none
+}
+
+
+//upload image//
+.inputfile-box {
+    position: relative;
+    width: 100%;
+}
+
+.inputfile {
+    display: none;
+}
+
+.container {
+    display: inline-block;
+}
+
+.file-box {
+    display: inline-block;
+    width: 410px;
+    border: 1px solid #e6ecf0;
+    box-sizing: border-box;
+    height: 36px;
+    color: #999;
+    border-radius: 3px ;
+    background-color: #fbfcfc;
+    padding: 6px 12px;
+    overflow: hidden;
+}
+
+.file-button {
+    background: #8bc240;
+    color: white;
+    padding: 6px;
+    position: absolute;
+    border: 1px solid #8bc240;
+    top: 39px;
+    right: 4px;
+    cursor: pointer;
+    border-radius: 0px 3px 3px 0px;
+    width: 110px;
+    text-align: center;
+    height: 36px;
+
+}
+.my_logo{
+    line-height: 3;
+}
+
+
+//media query//
+@media screen and (max-width: 1700px) {
+
+    .file-box {
+        width: 445px !important;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+
+    .file-box {
+        width: 410px !important;
+    }
+
+}
+@media screen and (max-width: 992px) {
+
+    .file-box {
+        width: 250px !important;
+    }
+}
+@media screen and (max-width: 600px) {
+
+}
+
+.labelBottom{
+    margin-bottom: 2px;
+}
+
+@media (min-resolution: 1.5dppx) {
+
+  .file-button {
+      background: #8bc240;
+      color: white;
+      padding: 6px;
+      position: absolute;
+      border: 1px solid #8bc240;
+      top: 39px;
+      right: -28px;
+      cursor: pointer;
+      border-radius: 0px 3px 3px 0px;
+      width: 110px;
+      text-align: center;
+      height: 36px;
+
+  }
+}

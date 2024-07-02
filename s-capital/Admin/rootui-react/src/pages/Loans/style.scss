@@ -1,0 +1,268 @@
+.table thead th {
+  font-weight: 500;
+}
+.nav-pills .nav-link{
+  font-weight: 500;
+}
+.btn{
+  font-weight: 500;
+}
+.loan_page{
+    padding: 10px 15px !important;
+}
+.loan_page h1{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.button_new{
+    text-transform: capitalize;
+}
+.start_mark_new{
+    color: red;
+  }
+
+  .manager_select_new .form-control{
+    background-color: #fef9fa;
+    border-color: #fac6cc;
+  }
+  .false_message_new{
+    text-align: center;
+    color: red;
+    margin-bottom: -40px;
+  }
+  .loans_model{
+    max-width: 700px !important;
+  }
+  .loans_tabs{
+      width: 100%;
+  }
+  .loans_tabs li{
+      width: 50%;
+  }
+  .loans_tabs li a{
+     justify-content: center;
+  }
+
+  .loans_tabs .onging_loans.active {
+    color: #fff !important;
+    background-color: #007bff !important;
+}
+  .loans_tabs .complete_loans.active {
+    color: #fff !important;
+    background-color: #2fc787 !important;
+}
+  .loans_tabs .pendingLoanNew.active {
+    color: #fff !important;
+    background-color: #fdbf21 !important;
+}
+
+.spinner_css_12345666{
+    justify-content: center;
+      position: absolute;
+      width: 50px;
+      height:50px;
+      margin-left:39%;
+      font-size: 14px;
+  }
+
+  .pagination_1{
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+  .pagination_1:hover {
+      color: #fff !important;
+  }
+    .mycalendar_loans{
+      overflow-x: hidden ;
+      overflow-y: scroll;
+    }
+    .employee_spinner_1{
+      justify-content: center;
+      position: absolute;
+      width: 45px;
+      height: 45px;
+      margin-left:48%;
+     font-size: 14px;
+     z-index: 1
+    }
+    .mycalendar_loans::-webkit-scrollbar
+    {
+      width: 0px;
+      background-color: #ffffff !important;
+    }
+  
+    .mycalendar_loans::-webkit-scrollbar-thumb
+    {
+      border-radius: 1px;
+      background-color:#ffffff !important;
+    }
+    .mycalendar_loans::-webkit-scrollbar-track
+    {
+      border-radius: 1px;
+      background-color: #ffffff !important;
+    }
+  
+    .mycalendar_loans::-webkit-scrollbar
+    {
+      width: 0px;
+      background-color: #ffffff !important;
+    }
+  
+    .mycalendar_loans::-webkit-scrollbar-thumb
+    {
+      border-radius: 1px;
+     background-color:#ffffff !important;
+    }
+    .test_collapse{
+  
+      animation: fadein 0.5s;
+        -moz-animation: fadein 0.5s;
+        -webkit-animation: fadein 0.5s;
+        -o-animation: fadein 0.5s;
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .height_sales {
+        border-right: 1px solid #e6ecf0;
+      }
+      html.rui-night-mode body .height_sales{
+        border-right: 1px solid #626973;
+      }
+
+      .padding_data_loans{
+        padding: 10px 20px !important;
+        vertical-align: middle !important;
+    }
+    .loans_tabs + .tab-content {
+        margin-top: 0px !important;
+    }
+
+    .left_section{
+        justify-content: center;
+          position: absolute;
+          width: 50px;
+          height:50px;
+          margin-left:48%;
+          font-size: 14px;
+      }
+
+      .scroll_1{
+        overflow-x: scroll;
+        overflow-y: hidden;
+      }
+      .scroll_1::-webkit-scrollbar{
+            height: 5px;
+            width: 3px;
+            background: #fff;
+        }
+        .scroll_1::-webkit-scrollbar-thumb:horizontal{
+            background: #a4a6a8;
+            border-radius: 10px;
+        }
+        html.rui-night-mode .scroll_1::-webkit-scrollbar {
+          height: 5px;
+          width: 3px;
+          background: #292f38 !important;
+      }
+      .mark_paid_button{
+        display: inline-flex;
+        width: 100%;
+        padding: 12px 16px;
+        justify-content: space-between;
+      }
+      .mark_paid_button h3{
+        margin-bottom: 0px;
+        margin-top: 8px;
+      }
+
+      .heading_top_newww{
+        font-size: 12px;
+      }
+      .heading_bottom_loans {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: -4px;
+    }
+    .border_none{
+        padding: 10px 25px !important;
+        vertical-align: middle !important;
+    }
+    .border_td{
+        padding: 10px 25px !important;
+        vertical-align: middle !important;
+
+    }
+    .llllllll_label{
+        margin-bottom: 4px;
+    }
+
+    @media (min-width:601px) and (max-width: 768px) {
+        .i_pad_view{
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            }
+    }
+    .marGinLeftNew{
+      margin-left: auto;
+    padding-right: 16px;
+    }
+
+    .new-content-edited{
+      padding: 0px 5px 5px;
+    }
+    .headingEdit{
+      display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    }
+    .headingEdit div{
+      align-self: center;
+    }
+    .headingEdit svg{
+      stroke-width: 2;
+    }
+
+    .billImageNew{
+      display: inline-flex;
+      flex-wrap: wrap;
+      width: 100px;
+    }
+    .billImageNew img{
+      margin-right: 8px;
+      margin-bottom: 10px;
+    }
+    .btnApproveNew button{
+      padding: 5px 6px !important;
+      text-transform: capitalize;
+    }

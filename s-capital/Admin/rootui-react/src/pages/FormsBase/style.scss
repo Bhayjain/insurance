@@ -1,0 +1,126 @@
+.table thead th {
+    font-weight: 500;
+  }
+  .nav-pills .nav-link{
+    font-weight: 500;
+  }
+  .btn{
+      font-weight: 500;
+  }
+  
+.spinner_spinner{
+    justify-content: center !important;
+    position: absolute !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: 39% !important;
+    font-size: 14px !important;
+    margin-top: 400px !important; 
+}
+.spinner_color{
+    color:#8bc240!important;
+}
+.holiday_heading{
+    padding: 10px 15px !important;
+    vertical-align: middle !important;
+}
+.holiday_heading h1 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.my_head_content{
+    white-space: nowrap !important;
+    display: inline-flex;
+    width: 100% !important;
+    justify-content: space-between !important;
+}
+.my_th{
+    padding: 10px 25px !important; 
+}
+.my_td{
+    padding: 8px 25px !important;
+}
+.my_edit_btn{
+    font-size: 10px !important;
+    padding: 5px 6px !important;
+    border-radius: 3px !important;
+    text-transform: capitalize !important;
+}
+.my_delete_btn{
+    font-size: 10px !important;
+    padding: 5px 8px !important;
+    border-radius: 3px !important;
+    text-transform: capitalize !important;
+}
+.my_holiday_name{
+    vertical-align: middle !important;
+}
+.my_holiday_date{
+    vertical-align: middle !important;
+}
+.my_btns_end{
+    text-align: center !important;
+}
+.my_delete_modal {
+    width: 350px !important
+}
+.modal-body{
+    padding-bottom: 10px !important;
+}
+.modal-footer{
+    padding-top: 0px !important;
+}
+button:not(:disabled), [type="button"]:not(:disabled) {
+    cursor: pointer;
+    text-transform: capitalize !important;
+    color: white !important
+}
+.my_foot{
+    margin-right: 5px !important;
+}
+.test_collapse{
+    animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s;
+    -o-animation: fadein 0.5s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,496 @@
+
+.table thead th {
+  font-weight: 500;
+}
+.nav-pills .nav-link{
+  font-weight: 500;
+}
+.btn{
+    font-weight: 500;
+}
+.height_sales {
+  border-right: 1px solid #e6ecf0;
+}
+
+.highlighted {
+  background-color: #a27d09;
+  color: #3d180f;
+  font-weight: 900;
+}
+
+
+.dot_nwww{
+  width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    // margin-left: 10px;
+}
+.vertical_midd{
+  vertical-align: middle !important;
+}
+html.rui-night-mode .post_paid_btn {
+  background-color: #292f38;
+  color: #fff !important;
+  border-right: 1px solid #6c757d !important;
+  border: 1px solid #6c757d;
+}
+html.rui-night-mode .day_paid_btn {
+  background-color: #292f38;
+  color: #fff !important;
+  border-right: 1px solid #6c757d !important;
+  border: 1px solid #6c757d;
+}
+html.rui-night-mode .pre_paid_btn {
+  background-color: #292f38;
+  color: #fff !important;
+  border-right: 1px solid #6c757d !important;
+  border: 1px solid #6c757d;
+}
+html.rui-night-mode .contact_sort div{
+  background-color: #292f38;
+  border-color: #3c424c;
+}
+html.rui-night-mode .contact_sort div div{
+  color: #a9b1bb !important;
+}
+html.rui-night-mode .contact_sort div div:hover{
+  color: #725ec3 !important;
+}
+
+html.rui-night-mode .contact_sort div div span{
+  background: #3c424c !important;
+}
+
+
+html.rui-night-mode body .mycalendar::-webkit-scrollbar-track
+{
+  border-radius: 1px;
+  background-color: #626973 !important;
+}
+html.rui-night-mode body .mycalendar::-webkit-scrollbar
+{
+  width: 1px;
+  background-color: #626973 !important;
+}
+html.rui-night-mode body .mycalendar::-webkit-scrollbar-thumb
+{
+  border-radius: 1px;
+  background-color:#626973 !important;
+}
+html.rui-night-mode body .height_sales{
+  border-right: 1px solid #626973;
+}
+.chech_heading{
+  padding: 15px 15px !important;
+}
+.chech_heading h1{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.margin_left{
+  display: inline-flex;
+}
+.margin_left button{
+  margin-left: auto;
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before{
+  background-color: #8bc240 !important;
+  border-color: #8bc240 !important;
+}
+.innnnn_type{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.lead_spinner{
+  justify-content: center;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-left: 41%;
+    font-size: 14px;
+    z-index: 1
+}
+.agent_spinner{
+  justify-content: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 43%;
+    font-size: 14px;
+}
+.cheque_model{
+  max-width: 600px !important;
+}
+.top_diff{
+  margin-top: 15px;
+}
+.upload_file_1{
+  margin-bottom: 5px;
+}
+.no_data_no{
+  margin-bottom: -34px;
+  color: red;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.grup_btn_neww{
+  width: 100%;
+  text-align: center;
+}
+.grup_btn_neww button{
+  text-transform: capitalize;
+  color: #8d8d8d;
+  background-color: #fff;
+  border-right: 1px solid #c2c2c2 !important;
+  border: 1px solid #c2c2c2;
+  padding: 9px 10px;
+  font-size: 12px;
+  justify-content: center;
+  // border-radius: 6px !important;
+}
+.pre_paid_btn:hover{
+  color: #fff;
+  background-color: #4B8178 !important;
+  border-color: #4B8178 !important;
+}
+.padding_class{
+  padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.post_paid_btn:hover{
+  color: #fff;
+  background-color: #fdbf21 !important;
+  border-color: #fdbf21 !important;
+}
+.day_paid_btn:hover{
+  color: #fff;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+.grup_btn_neww .btn-group{
+  width: 100%;
+  padding: 7px 10px;
+}
+.grup_btn_neww button:focus{
+  color: #fff;
+  background-color: #4B8178;
+  border-color: #4B8178;
+  box-shadow: none;
+}
+
+.mycalendar{
+  overflow-x: hidden ;
+  overflow-y: scroll;
+}
+.mycalendar::-webkit-scrollbar
+{
+  width: 1px;
+  background-color: #ffffff !important;
+}
+
+.mycalendar::-webkit-scrollbar-thumb
+{
+  border-radius: 1px;
+  background-color:#ffffff !important;
+}
+.mycalendar::-webkit-scrollbar-track
+{
+  border-radius: 1px;
+  background-color: #ffffff !important;
+}
+
+.mycalendar::-webkit-scrollbar
+{
+  width: 1px;
+  background-color: #ffffff !important;
+}
+
+.mycalendar::-webkit-scrollbar-thumb
+{
+  border-radius: 1px;
+ background-color:#ffffff !important;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+  background-color: #8bc240 !important;
+  border-color:#8bc240 !important;
+}
+.test_collapse{
+
+  animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s;
+    -o-animation: fadein 0.5s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.chequeeeee_data button{
+  margin-left: auto;
+    height: 32px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+}
+.chequeeeee_data{
+  display: inline-flex;
+    width: 100%;
+    padding-right: 15px;
+}
+// @media (min-width:601px) and (max-width: 768px) {
+//   .padding_class {
+//     padding-left: 20px !important;
+//   }
+//   .for_new_data{
+//     white-space: nowrap;
+//   }
+//   .marr_rihjh{
+//     margin-right: 0px;
+//   }
+//   .amount_widthh{
+//     width: 120px !important;
+// }
+// .use_amountt{
+//     width: 93px !important;
+// }
+// .chequeeeee_data button{
+//   padding-top: 7px;
+// }
+// }
+
+@media (min-width:601px) and (max-width: 820px) {
+  .padding_class {
+    padding-left: 20px !important;
+  }
+  .for_new_data{
+    white-space: nowrap;
+  }
+  .marr_rihjh{
+    margin-right: 0px;
+  }
+  .amount_widthh{
+    width: 120px !important;
+}
+.use_amountt{
+    width: 93px !important;
+}
+.chequeeeee_data button{
+  padding-top: 7px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .marr_rihjh{
+    margin-right: 0px;
+  }
+  .padding_class {
+    padding-left: 20px !important;
+  }
+  .for_new_data{
+    white-space: nowrap;
+  }
+  .desi{
+    width: 120px !important;
+  }
+}
+
+
+
+
+html.rui-night-mode .meesage_div_new {
+  background-color: #292f38 !important;
+  border: 1px solid #454545 !important;
+}
+
+.meesage_div_new{
+  margin-left: 0px !important;
+    margin-right: 0px !important;
+    // border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 8px 0px;
+    border: 1px solid rgb(230, 236, 240);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    flex-direction: column-reverse !important;
+    display: flex;
+    overflow-x: hidden;
+    margin-bottom: 10px;
+}
+
+
+.mycalendar_message{
+  overflow-x: hidden ;
+  overflow-y: scroll;
+}
+
+.mycalendar_message::-webkit-scrollbar-thumb {
+  background-color: #e3e3e4;
+  border: 4px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+
+.mycalendar_message::-webkit-scrollbar {
+  width: 13px;
+}
+
+.overclass_user, .overclass_admin{
+  width:60%;
+  margin-bottom:10px;
+   margin-top:5px;
+}
+
+.overclass_user_neww{
+  position: relative;
+}
+
+html.rui-night-mode .grey_msg_new_dock{
+  background: #323942 !important;
+    color: #a9b1bb !important;
+}
+.grey_msg_new_dock{
+  background: rgb(248, 249, 250);
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   padding: 15px;
+   float: right;
+   // max-width: 60%;
+   margin-right: auto;
+  //  position:relative
+
+}
+
+
+.purple_msg{
+  background: #8bc240;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 7px;
+    float: left;
+    color: rgb(255, 255, 255);
+      // max-width: 60%;
+      margin-left: auto;
+      position:relative
+ }
+
+ .grey_msg_imgg{
+  padding: 7px;
+  float: right;
+  // max-width: 60%;
+  margin-right: auto;
+  position:relative
+
+}
+
+.purple_msg_imgg{
+  padding: 7px;
+  float: left;
+  color: rgb(255, 255, 255);
+    // max-width: 60%;
+    margin-left: auto;
+    position:relative
+}
+
+.my_uploded_imgg{
+  width: 50px;
+  height: 40px;
+}
+
+.message_tpe_new{
+  width: 100%;
+    justify-content: center;
+}
+
+html.rui-night-mode .my_input_newNew {
+  margin-top: -11px !important;
+}
+.my_input_newNew{
+  margin-top: -13px;
+  display:flex;
+  flex-direction:row;
+}
+
+.my_input_newNew .send_button_new{
+  background-color: #8bc240;
+  color: #fff;
+  border-color: #8bc240;
+  text-transform: capitalize;
+  position: absolute;
+  right: 45px;
+  padding: 20px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+.my_input_newNew .send_button_new:hover{
+  color: #fff;
+}
+
+html.rui-night-mode .meesage_div_input_neww {
+  border: 1px solid #454545 !important;
+}
+
+.meesage_div_input_neww{
+  margin-left: 0px !important;
+    margin-right: 0px !important;
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 8px 20px;
+    border: 1px solid rgb(230, 236, 240) !important;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 75px;
+    font-style: italic;
+}
+.lord_111{
+  float: right;
+  margin-bottom: 0px;
+}
+html.rui-night-mode .lord_111 {
+  border: none !important;
+}
+
+.paperclissNew1{
+  position: absolute;
+  right: 130px;
+  margin-top: 25px;
+  width: 20px !important;
+  min-width: 16px;
+  height: 25px !important;
+  cursor: pointer;
+}

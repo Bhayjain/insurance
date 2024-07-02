@@ -1,0 +1,444 @@
+@import "../../../../common-assets/css/variables";
+@import "../../../../common-assets/css/rootui-parts/plugin-fullcalendar";
+@import "../../../../common-assets/css/variables";
+@import "../../../../common-assets/css/rootui-parts/file-manager";
+.task_page_title{
+  padding: 15px 15px !important;
+}
+.head_task{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  display: inline-flex;
+}
+.add_task_1{
+  max-width: 500px !important;
+}
+.add_task_1::before{
+  content: none;
+}
+.myli:hover{
+    background-color: rgba(114, 94, 195, 0.6);
+    }
+    .myli{
+      padding: 10px;
+    }
+html.rui-night-mode .dropdown .nav_12 li{
+    background-color: #2b323b !important;
+    border-color: #252c36 !important;
+}
+html.rui-night-mode .dropdown .nav_12 li span{
+    color: #c7d1db !important;
+}
+html.rui-night-mode .dropdown .nav_12 .yourClass{
+    background:  #585a5c !important;
+}
+
+html.rui-night-mode .dropdown .drop_data:hover{
+        background: transparent!important;
+        border-color: #c7d1db;
+}
+html.rui-night-mode .dropdown .drop_data:focus{
+  background: transparent !important;
+border-color: #c7d1db !important;
+}
+
+html.rui-night-mode .dropdown .drop_data:not(:disabled):not(.disabled):active{
+  border-color:#585a5c !important;
+}
+html.rui-night-mode .choose_cat div {
+    background-color: #292f38 !important;
+    border-color: #454c55 !important;
+    color: #626973 !important;
+
+}
+
+html.rui-night-mode .choose_cat div span{
+    background-color: #626973 !important;
+
+}
+html.rui-night-mode .today_data{
+    color: #c7d1db!important;
+    margin-top:30px;
+      margin-bottom: 11px;
+      font-weight: 700;
+      font-size:18px;
+
+}
+html.rui-night-mode input[type="checkbox"]:not(:disabled):hover:before{
+
+    background-color: red !important;
+}
+html.rui-night-mode .form-check-input[type="checkbox" i] {
+  background-color: red !important;
+  border-color: #85A9BB #92C2DA #92C2DA #85A9BB;
+}
+html.rui-night-mode .nav_12 li:hover {
+    background:  #585a5c!important;
+}
+
+.lord_lable{
+  height: auto;
+  border-radius: 50%;
+  text-align: center;
+}
+.fff{
+    max-width: -webkit-fill-available;
+    height: auto;
+    width: 250px;
+    height: 239px;
+    overflow: hidden;
+    /* border: 1px solid rgb(206, 212, 218); */
+    margin-top: 10px;
+}
+.category_data{
+  background: #3194dd;
+    padding: 0px 1px;
+    margin-bottom: 37px;
+    border-radius: 6px;
+    margin-right: 10px;
+    color: white;
+
+}
+
+.dis{
+  display: inline-flex;
+  width: 100%;
+  line-height: 0;
+
+}
+.dis1{
+  line-height: 0;
+}
+.data{
+  margin-top: 11px;
+  margin-left: 5px;
+}
+
+
+.icon_edit{
+  margin-left: auto;
+
+      outline: none;
+      border: 1px solid #e6ecf0;
+      padding: 1px 9px;
+      border-radius: 6px;
+      margin-right: 10px;
+      margin-bottom: 36px;
+
+}
+.icon_trash{
+  margin-right: 33px;
+  outline: none;
+  border: 1px solid #e6ecf0;
+  padding: 1px 9px;
+  border-radius: 6px;
+  margin-right: 10px;
+  margin-bottom: 36px;
+
+}
+.color12{
+  color: #4495ed;
+}
+.cate{
+  padding: 4px 16px;
+}
+.head{
+
+    display: inline-flex;
+}
+.share_cate{
+
+  margin-left:4px;
+    margin-right: 11px;
+}
+.icon_edit:hover{
+  background-color:#e2ecf7;;
+}
+.icon_trash:hover{
+  background-color:#e2ecf7;;
+}
+.form-check-input {
+    position: static;
+    margin-top:-1px;
+    margin-left: -15px;
+    width: 25px;
+    height: 14px;
+    margin-right: 7px;
+
+}
+.drop_data{
+  background: transparent;
+text-transform: capitalize !important;
+border-top: none;
+border-right: none;
+border-left: none;
+border-bottom: 1px solid grey;
+border-radius: unset;
+}
+.drop_data:hover{
+  color: #089bd7 !important;
+}
+.drop_data:focus{
+  color: #089bd7 !important;
+}
+
+.drop_list:hover{
+background: #d3d3d37a;
+
+}
+.drop_data:active:focus{
+  -webkit-box-shadow: none !important;
+}
+
+.drop_data:not(:disabled):not(.disabled):active{
+  color: #089bd7 !important;
+      background-color: white !important;
+      border-color: white !important;
+}
+.nav_12 li:hover {
+    background: rgba(211, 211, 211, 0.48) !important;
+}
+
+.drop_list{
+width: 100%;
+}
+.table th, .table td {
+    padding: 14px 12px;
+    font-weight: 400;
+    color: #6c757d;
+    border-color: #e6ecf0;
+}
+.icon_trash_1{
+  margin-left: 14px;
+    margin-top: -5px;
+      cursor: pointer;
+}
+.table_data{
+  width: 93px !important;
+}
+.dropdown-menu-triangle {
+    display: none !important;
+}
+.nav_12{
+    top: -10px !important;
+    left: 0px !important;
+    transform: translate3d(0px, 24px, 0px);
+    margin-left: -41px !important;
+    font-size: 18px !important;
+}
+.link_1{
+  background: #e7e4e4;
+}
+
+.nav_12.dropdown-menu .nav-link, .nav_12.dropdown-menu .dropdown-item {
+    padding: 0px 0px 0px 0px;
+}
+.nav-link:hover{
+  background: #eee;
+}
+.nav_link{
+  padding: 4px 12px;
+  color: #101010;
+  margin-bottom: 5px;
+  font-size: 13px;
+  cursor:pointer;
+}
+.drop_data{
+
+  padding: 0px 8px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: inherit;
+    color: #089bd7;
+}
+.btn-brand:hover {
+    color: black;
+    background-color: white;
+
+}.btn-brand:focus, .btn-brand.focus {
+    color: #007bff;
+    background: white;
+
+
+
+    box-shadow: none;
+}
+.btn-brand:focus, .btn-brand.focus {
+    color: black;
+    background: white;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.heading{
+    margin-bottom: 11px;
+    font-size:16px;
+    text-align: center !important;
+    color: #a4a6a8;
+}
+.table_12{
+  width: 100% !important;
+}
+
+.rui-toast-container{
+  margin-top: -37px !important;
+  z-index: 1025;
+}
+.spinner_css_1234{
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  width: 40px;
+  height:40px;
+  margin-left:40%;
+  font-size: 14px;
+}
+.sssp{
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+.mobile_set{
+  margin-top: 20px;
+}
+.head{
+  margin-top: 20px;
+}
+.head_task {
+  margin-top: 10px !important;
+}
+.add_btn {
+  margin-top: 5px !important;
+}
+}
+@media(max-width:600px){
+
+  .table_break{
+    display: revert;
+  }
+  .category_data{
+    width: fit-content;
+    margin-bottom: 2px;
+    margin-top: -21px;
+    margin-left:-6px;
+  }
+  .table_data{
+    margin-left:-92px;
+    margin-top:65px;
+    width: 52px !important;
+}
+.table_pad{
+  padding:0px 21px !important;
+  padding-top: 10px !important;
+  height: 105px !important;
+
+}
+  .table_imp{
+
+    width: 100%;
+    overflow: hidden;
+    min-width: auto !important;
+
+  }
+  .head{
+   margin-top: -4px;
+   margin-bottom: 2px;
+   font-size: 16px !important
+  }
+  .plus_data{
+
+   display: none !important;
+  }
+  .add_btn{
+    padding-left: 4px !important;
+    padding-right: 9px !important;
+    padding-bottom: 7px !important;
+    padding-top: 7px !important;
+    font-size: 12px !important;
+  }
+  .heading{
+    margin-top: 14px;
+    margin-bottom: 19px;
+  }
+  .drop_data{
+    font-size: 14px !important;
+  }
+  .share_cate{
+    margin-left: 3px;
+    margin-right: 6px;
+  }
+  .add_task12{
+    margin-left: 5px
+  }
+  .spinner_css_1234{
+  margin-left:38%;
+}
+}
+
+
+
+::-webkit-full-page-media, :future, :root .safari_only {
+  .table_break{
+    display: revert;
+  }
+  .category_data{
+    width: fit-content;
+    margin-bottom: 2px;
+    margin-top: -21px;
+    margin-left:-6px;
+  }
+  .table_data{
+    margin-left:-92px;
+    margin-top:65px;
+    width: 52px !important;
+}
+.table_pad{
+  padding:33px 14px !important;
+  padding-top: 10px !important;
+  height: 100px !important;
+
+}
+  .table_imp{
+
+    width: 100%;
+    overflow: hidden;
+    min-width: auto !important;
+
+  }
+  .sssp{
+    cursor: pointer;
+  }
+  .icon_trash_1{
+    margin-left: -2px !important;
+      margin-top: -5px !important;
+        cursor: pointer;
+  }
+
+}
+
+.my_date_pii_task .react-datepicker-popper{
+
+  left: 0px;
+
+}
+.my_date_pii_task .react-datepicker{
+  display: inline-flex !important;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #8bc240 !important;
+    border-color:#8bc240 !important;
+  }
+  .rui-page .rui-page-content{
+    padding: 0px 0px !important;
+  }
+// @media screen and (-webkit-min-device-pixel-ratio:0) {
+//   .icon_trash_1{
+//     margin-left: -2px !important;
+//       margin-top: -5px !important;
+//   }
+//   // ::i-block-chrome, .icon_trash_1{
+//   //   margin-left: -2px !important;
+//   //     margin-top: -5px !important;
+//   // }
+// }

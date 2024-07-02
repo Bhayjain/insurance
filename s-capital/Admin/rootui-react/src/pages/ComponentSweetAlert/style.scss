@@ -1,0 +1,274 @@
+@import "~sweetalert2/dist/sweetalert2.min.css";
+
+@import "../../../../common-assets/css/variables";
+
+body {
+    @import "../../../../common-assets/css/rootui-parts/plugin-sweetalert";
+}
+
+.table thead th {
+  font-weight: 500;
+}
+.nav-pills .nav-link{
+  font-weight: 500;
+}
+.btn{
+    font-weight: 500;
+}
+
+.salary_page{
+    padding: 10px 15px !important;
+}
+.button_salary{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.button_salary h1{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.material_model{
+    max-width: 1160px;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #8bc240 !important;
+    border-color:#8bc240 !important;
+  }
+  .large_checkkkk label::before{
+    width: calc(1.5em + 0.75rem + 0px) !important;
+      height: calc(1.5em + 0.75rem + 0px) !important;
+  }
+  .large_checkkkk label::after{
+    width: calc(1.5em + 0.75rem + 0px) !important;
+      height: calc(1.5em + 0.75rem + 0px) !important;
+  }
+  .list_data .col-lg-2{
+    padding-right: 0px !important;
+  }
+  .plus_icon_new{
+    align-self: flex-end;
+    padding-left: 0px;
+  }
+  .message_error{
+      color: red;
+      text-align: center;
+    margin-bottom: -32px;
+    margin-top: 45px;
+  }
+  .label_999{
+      margin-bottom: 0px;
+  }
+  .margin_top{
+     margin-bottom: 15px;
+  }
+  .start_new_mark{
+      color: red;
+      margin-left: 2px;
+  }
+  .top_down{
+      margin-top: 20px;
+  }
+  .min_icon_new{
+    padding-left: 0px; 
+  }
+  .spinner_css_123456{
+    justify-content: center;
+      position: absolute;
+      width: 50px;
+      height:50px;
+      margin-left:40%;
+      font-size: 14px;
+  }
+
+  .test_collapse{
+
+    animation: fadein 0.5s;
+      -moz-animation: fadein 0.5s;
+      -webkit-animation: fadein 0.5s;
+      -o-animation: fadein 0.5s;
+  }
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  @-moz-keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  @-webkit-keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  @-o-keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+
+  .mycalendar{
+    overflow-x: hidden ;
+    overflow-y: scroll;
+  }
+
+  .mycalendar::-webkit-scrollbar{
+    width: 1px;
+    background-color: #ffffff !important;
+  }
+
+  .mycalendar::-webkit-scrollbar-thumb{
+    border-radius: 1px;
+    background-color:#ffffff !important;
+  }
+  .mycalendar::-webkit-scrollbar-track{
+    border-radius: 1px;
+    background-color: #ffffff !important;
+  }
+
+  .mycalendar::-webkit-scrollbar{
+    width: 1px;
+    background-color: #ffffff !important;
+  }
+
+  .mycalendar::-webkit-scrollbar-thumb{
+    border-radius: 1px;
+
+    background-color:#ffffff !important;
+  }
+
+  html.rui-night-mode body .mycalendar::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 1px;
+  background-color: #626973 !important;
+}
+html.rui-night-mode body .mycalendar::-webkit-scrollbar
+{
+  width: 1px;
+  background-color: #626973 !important;
+}
+html.rui-night-mode body .mycalendar::-webkit-scrollbar-thumb
+{
+  border-radius: 1px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color:#626973 !important;
+}
+
+html.rui-night-mode body .height_13{
+    border-right: 1px solid #626973;
+  }
+
+  .height_13{
+    border-right: 1px solid #d1d1d1;
+  }
+
+  .employee_spinner_12{
+    justify-content: center;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-left:49%;
+   font-size: 14px;
+   z-index: 1
+  }
+  .button_div{
+    text-align: end;
+    padding-right: 30px;
+  }
+  .padding_row_new{
+    padding: 15px 16px;
+  }
+  .show_time_new{
+    margin-top: -6px;
+    font-size: 11px;
+    font-style: italic;
+  }
+  .heading_data{
+    margin-bottom: 9px;
+    margin-top: 10px;
+    font-weight: 500;
+
+  }
+
+  html.rui-night-mode .contact_sort div {
+    background-color: #292f38;
+    border-color: #3c424c;
+    color: #a0aebb !important;
+  }
+  html.rui-night-mode .contact_sort div div span{
+    background-color: #626262;
+    border-color: #3c424c;
+  }
+
+@media (min-width:601px) and (max-width: 768px) {
+  .show_single_data{
+    padding-left: 19px;
+  }
+  .material_model {
+    max-width: 756px !important;
+    margin: 5px !important;
+}
+.mar_gin{
+  margin-right: 0px !important;
+}
+}
+.showRadioNew{
+  display: inline-flex;
+}
+.amountRadii{
+  align-self: center;
+  display: inline-flex;
+    align-self: center;
+}
+.inputFeildNeww{
+  width: 150px;
+    margin-left: 14px;
+}
+.showinLineSalary{
+  display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.showinLineSalary .form-control{
+  width: 170px;
+}
+.showinLineSalary .contact_sort{
+  width: 170px;
+}
+.showsubdata{
+  width: 15%;
+}
+.showsubdataButton{
+  width: 5%;
+}
+.showsubdataChecl{
+  width: 5%;
+}
+.pfdiv{
+  text-align: center;
+}
+
+@media only screen and (min-resolution: 1.26dppx) and (max-resolution: 1.5dppx) {
+  .showinLineSalary .form-control {
+    width: 140px !important;
+}
+.showinLineSalary .contact_sort {
+  width: 140px !important;
+}
+}

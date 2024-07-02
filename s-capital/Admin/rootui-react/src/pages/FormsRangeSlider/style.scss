@@ -1,0 +1,482 @@
+
+.table thead th {
+  font-weight: 500;
+}
+.btn{
+  font-weight: 500;
+}
+.payroll_dashboard{
+    padding: 10px 15px !important;
+}
+.payroll_dashboard h1{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.heading_opeartion{
+    background-color: #f8f8f8;
+    width: 100%;
+}
+html.rui-night-mode .heading_opeartion {
+    background-color: #292f38 !important;
+  }
+
+.spinner_css_12345666{
+    justify-content: center;
+      position: absolute;
+      width: 50px;
+      height:50px;
+      margin-left:39%;
+      font-size: 14px;
+  }
+.mycalendar{
+    overflow-x: hidden ;
+    overflow-y: scroll;
+  }
+
+
+  .mycalendar::-webkit-scrollbar
+  {
+    width: 0px;
+    background-color: #ffffff !important;
+  }
+
+  .mycalendar::-webkit-scrollbar-thumb
+  {
+    border-radius: 1px;
+    background-color:#ffffff !important;
+  }
+  .mycalendar::-webkit-scrollbar-track
+  {
+    border-radius: 1px;
+    background-color: #ffffff !important;
+  }
+
+  .mycalendar::-webkit-scrollbar
+  {
+    width: 0px;
+    background-color: #ffffff !important;
+  }
+
+  .mycalendar::-webkit-scrollbar-thumb
+  {
+    border-radius: 1px;
+   background-color:#ffffff !important;
+  }
+  .test_collapse{
+
+    animation: fadein 0.5s;
+      -moz-animation: fadein 0.5s;
+      -webkit-animation: fadein 0.5s;
+      -o-animation: fadein 0.5s;
+  }
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  @-moz-keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  @-webkit-keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  @-o-keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+
+  html.rui-night-mode body .mycalendar::-webkit-scrollbar-track
+{
+  // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 1px;
+  background-color: #626973 !important;
+}
+html.rui-night-mode body .mycalendar::-webkit-scrollbar
+{
+  width: 1px;
+  background-color: #626973 !important;
+}
+html.rui-night-mode body .mycalendar::-webkit-scrollbar-thumb
+{
+  // #3c424c
+  border-radius: 1px;
+  // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color:#626973 !important;
+}
+.attendance_muster_roll{
+  padding: 16px 20px;
+}
+.attendance_data{
+  margin-top: 4px;
+  font-weight: 500;
+  margin-bottom: -3px !important;
+}
+.date_for_muster_roll{
+  text-align: end;
+}
+.date_for_muster_roll .react-datepicker-popper{
+  top: -3px !important;
+  left: -30px !important;
+}
+.salary_sum_date{
+  text-align: end;
+  text-align: end;
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.salary_sum_date .react-datepicker .react-datepicker__navigation{
+  top: 16px !important;
+}
+.salary_sum_date .react-datepicker-popper{
+  top: -19px !important;
+    left: -28px !important;
+}
+.salary_sum_date .react-datepicker{
+  padding: 0px 18px 5px 18px !important;
+}
+.master_roll_box{
+  background-color: #fff;
+  padding:12px 16px;
+  border: 1px solid #e6ecf0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow-x: hidden;
+  margin-bottom: 10px;
+  margin-top: 9px;
+  border-radius: 10px;
+}
+.overa_all_bal{
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+html.rui-night-mode .master_roll_box {
+background-color: #292f38!important;
+border: 1px solid #454545!important;
+}
+.padd_ing_table{
+  padding: 9px 16px !important;
+  line-height: 16px;
+  vertical-align: middle !important;
+}
+.width_name{
+  width: 163px;
+  min-width:163px
+}
+.borderlessNew{
+  margin-bottom: 0px;
+}
+
+
+.present{
+  width: 85px;
+  min-width:85px
+}
+.absent{
+  width: 80px;
+  min-width:80px
+}
+.half_day{
+  width: 88px;
+  min-width:88px
+}
+.paid_leave{
+  width: 104px;
+  min-width:104px
+}
+.unmarked{
+  width: 104px;
+  min-width:104px
+}
+.overtime{
+  width: 95px;
+  min-width:95px
+}
+.fine{
+  width: 85px;
+  min-width:85px
+}
+.total_attendace{
+  width: 148px;
+  min-width:148px
+}
+
+
+
+.display_new{
+  display: inline-flex;
+}
+.show_icon_dash{
+  margin-right: 6px;
+    margin-left: -25px;
+    margin-top: -2px;
+}
+.dash_un_n_down{
+  stroke-width: 2px;
+    min-width: 22px;
+    height: 22px;
+}
+
+.staff_salary_box{
+  background-color: #fff;
+  padding:12px 16px;
+  border: 1px solid #e6ecf0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow-x: hidden;
+  margin-bottom: 10px;
+  margin-top: 9px;
+  border-radius: 10px;
+}
+html.rui-night-mode .staff_salary_box {
+  background-color: #292f38!important;
+  border: 1px solid #454545!important;
+  }
+.staff_salary_box_atten{
+  background-color: #fff;
+  padding:12px 16px;
+  border: 1px solid #e6ecf0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow-x: hidden;
+  margin-bottom: 10px;
+  margin-top: 9px;
+  border-radius: 10px;
+  height: 200px;
+}
+html.rui-night-mode .staff_salary_box_atten {
+  background-color: #292f38!important;
+  border: 1px solid #454545!important;
+  }
+.salary_table{
+  padding: 10px 25px !important;
+  vertical-align: middle !important;
+}
+.sumbit_new{
+  text-transform: capitalize;
+  padding: 6px 10px;
+}
+.btn_allow{
+  width: 110px;
+  justify-content: center;
+}
+.date_muster p{
+  margin-bottom: 0px;
+}
+.MUSTER_ROLL_TABLE{
+  padding: 6px 1px !important;
+  vertical-align: middle !important;
+  text-align: center;
+  font-size: 10px;
+  min-width: 31px;
+  border-color: #f1f1f1 !important;
+}
+
+.scroll_1{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.scroll_1::-webkit-scrollbar{
+      height: 5px;
+      width: 3px;
+      background: #fff;
+  }
+  .scroll_1::-webkit-scrollbar-thumb:horizontal{
+      background: #a4a6a8;
+      border-radius: 10px;
+  }
+  html.rui-night-mode .scroll_1::-webkit-scrollbar {
+    height: 5px;
+    width: 3px;
+    background: #292f38 !important;
+}
+
+html.rui-night-mode .upcommimg_leavess {
+  border: 1px solid #454545;
+}
+html.rui-night-mode .upcommimg_thimg_to{
+  border: 1px solid #454545;
+}
+.DAYS_BACK{
+  BACKGROUND: #E6ECF0;
+  WIDTH: 30PX;
+}
+.DAYS_BACK div{
+  font-weight: 500;
+}
+html.rui-night-mode .DAYS_BACK {
+  BACKGROUND: #323942;
+  WIDTH: 30PX;
+}
+.heading_top_newww{
+  font-size: 12px;
+  white-space: nowrap;
+}
+.heading_bottom{
+  font-size: 22px;
+    font-weight: 500;
+    margin-top: -8px;
+}
+.line_attendance{
+  border: 1px solid #e6ecf0;
+    height: 30px;
+    align-self: center;
+}
+html.rui-night-mode .line_attendance{
+  border: 1px solid #a9b1bb;
+    height: 22px;
+    align-self: center;
+}
+.show_in_line_attendance{
+  display: inline-flex;
+    width: 100%;
+    // flex-wrap: unset;
+    justify-content: space-between;
+}
+
+.things_to_do{
+  font-weight: 500;
+    padding-top: 3px;
+    padding-left: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.all_done{
+  font-weight: 500;
+    padding-top: 20px;
+    padding-left: 3px;
+    font-size: 14px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+.upcommimg_leavess{
+  border: 1px solid #e6ecf0;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.upcommimg_thimg_to{
+  border: 1px solid #e6ecf0;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    
+}
+
+.upcomming_leaves_dashh{
+  margin-top: 20px;
+}
+.thing_to_row{
+  margin-top: -10px;
+}
+.upcomm_data{
+  margin-top: 24px;
+}
+
+.export_muster_roll{
+  text-transform: capitalize;
+    padding: 8px 12px;
+    margin-left: 6px;
+    height: 34px;
+}
+
+.attendance_dash_calendar .react-datepicker-popper{
+  left: -145px !important;
+}
+.attendance_dash_calendar .react-datepicker__triangle{
+  left: 190px !important;
+}
+
+.position_absoulate{
+  position: absolute;
+    right: 22px;
+    margin-top: 3px;
+    stroke-width: 3px;
+    cursor: pointer;
+
+}
+.position_absoulate_thingg{
+  position: absolute;
+    right: 22px;
+    margin-top: 3px;
+    stroke-width: 3px;
+    cursor: pointer;
+    top: 13px;
+}
+.position_relelative{
+  position: relative;
+  padding-right: 6px;
+}
+
+.spinner_css_12345666{
+  justify-content: center;
+    position: absolute;
+    width: 50px;
+    height:50px;
+    margin-left:39%;
+    font-size: 14px;
+}
+@media (max-width: 768px) {
+.ipad_view_on{
+  padding-left: 15px !important;
+}
+
+}
+
+html.rui-night-mode .MUSTER_ROLL_TABLE{
+  border-color: #3c424c !important;
+}
+
+.allowance_model{
+  max-width: 650px !important;
+}
+.start_mark_new{
+  color: red;
+}
+.allowance_label{
+  margin-bottom: 2px;
+}
+
+.false_message_new{
+  text-align: center;
+  color: red;
+  margin-bottom: -40px;
+}
+
+.manager_select_new .form-control{
+  background-color: #fef9fa;
+  border-color: #fac6cc;
+}
+.is_not_valid div{
+  background-color: #fef9fa;
+  border-color: #fac6cc;
+}
+
+@media only screen and (min-resolution: 1.26dppx) and (max-resolution: 1.5dppx) {
+  .upcommimg_thimg_to{
+    font-size: 10px !important;
+  }
+  .attendance_dash_calendar .form-control{
+    width: 170px !important;
+  }
+}

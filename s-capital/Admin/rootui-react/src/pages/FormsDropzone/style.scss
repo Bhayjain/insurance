@@ -1,0 +1,292 @@
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.spinner_letter{
+    justify-content: center !important;
+    width: 55px ;
+    height:55px ;
+    margin-left:45% ;
+}
+button:not(:disabled), [type="button"]:not(:disabled){
+    cursor: pointer !important;
+    text-transform: capitalize !important;
+}
+.my_head_content{
+    display: inline-flex !important;
+    width: 100% !important;
+    justify-content: space-between !important;
+}
+.heading_top{
+    vertical-align: middle !important;
+    margin: 0px !important;
+}
+.heading_top_1{
+    vertical-align: middle !important;
+    margin: 0px !important;
+    padding-left: 12px !important;
+}
+.modal-width{
+    max-width: 1000px !important;
+
+}
+.my_error_message{
+    margin-top: 20px !important;
+    margin-bottom: -60px !important;
+}
+.my_imp_char{
+    margin-bottom: 4px !important;
+    margin-top: 4px !important;
+    display: list-item ;
+    font-weight: 600;
+    // font-style: ;
+}
+.my_compulsory_char_list{
+    padding-left: 15px !important;
+}
+.rui-quill-editor .my_text_editor{
+    height: 300px ;
+
+}
+.my_delete_modal {
+    width: 350px !important
+}
+.my_edit_btn{
+    font-size: 10px !important;
+    padding: 9px 10px !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    border-radius: 3px !important;
+    text-transform: capitalize !important;
+}
+.my_delete_btn{
+    font-size: 10px !important;
+    padding: 9px 10px !important;
+    background-color: #bd2130 !important;
+    border-color: #bd2130 !important;
+    border-radius: 3px !important;
+    text-transform: capitalize !important;
+}
+.my_back_btn{
+    font-size: 10px !important;
+    padding: 8px 15px !important;
+    border-radius: 3px !important;
+    text-transform: capitalize !important;
+}
+.my_td{
+    padding: 10px 25px !important
+}
+.my_edit_delete_button{
+    text-align-last: end !important;
+    padding-right: 10px !important;
+    display: inline-flex !important;
+}
+.my_map_letter{
+    text-align-last: initial !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+.my_card{
+    margin: 0px 27px !important;
+    border-radius: 5px !important;
+    padding: 10px 10px !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+}
+
+.my_card::-webkit-scrollbar{
+    width: 1px;
+    background-color: #ffffff !important;
+}
+
+.my_card_content{
+    padding: 18px 18px !important;
+    margin: 0px !important;
+    vertical-align: middle !important;
+}
+
+
+
+
+
+
+
+
+.my_scroll{
+    overflow-y: scroll;
+}
+
+.my_scroll::-webkit-scrollbar{
+    width: 1px;
+    background-color: #ffffff !important;
+}
+.my_scroll::-webkit-scrollbar-thumb{
+    border-radius: 1px;
+    background-color:#ffffff !important;
+}
+.my_scroll::-webkit-scrollbar-track{
+    border-radius: 1px;
+    background-color: #ffffff !important;
+}
+
+
+  
+.my_th{
+    padding: 12px 25px  !important;
+}
+.heading_card{
+    text-align-last: center !important;
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+}
+.my_new_content{
+    background-color: #f8f8f8;
+}
+.spinner_2{
+    justify-content: center !important;
+    position: absolute !important;
+    width: 45px !important;
+    height: 45px !important;
+    margin-top: 280px !important;
+    margin-left: 44% !important;
+    z-index: 1 !important
+}
+.my_page_title{
+    padding: 15px 0px !important;
+}
+.my_table_1{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border-right: 1px solid #e6ecf0;
+}
+.my_table_2{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+#exampleLetterFormat{
+    height: 433px !important;
+}
+
+
+
+html.rui-night-mode .my_new_content {
+    background-color: #3c424c !important;
+}
+html.rui-night-mode .my_table_1 {
+    border-right: 1px solid #3c424c !important;
+}
+html.rui-night-mode .my_card::-webkit-scrollbar{
+    width: 1px;
+    background-color: #3c424c !important;
+}
+html.rui-night-mode .ql-container.ql-snow {
+    border: 1px solid #3c424c !important;
+}
+
+html.rui-night-mode .my_scroll{
+    overflow-y: scroll;
+}
+
+html.rui-night-mode .my_scroll::-webkit-scrollbar{
+    width: 1px;
+    background-color: #3c424c !important;
+}
+html.rui-night-mode .my_scroll::-webkit-scrollbar-thumb{
+    border-radius: 1px;
+    background-color:#3c424c!important;
+}
+html.rui-night-mode .my_scroll::-webkit-scrollbar-track{
+    border-radius: 1px;
+    background-color: #3c424c !important;
+}
+
+
+
+
+
+
+
+.test_collapse{
+    animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s;
+    -o-animation: fadein 0.5s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and (max-width: 900px) {
+
+    .modal-width{
+        max-width: 750px !important;
+        height: 750px !important
+    }
+  
+} 
+
+
+.showInvalid{
+    border-radius: 5px;
+    border: 1px solid rgb(250, 198, 204);
+    background-color: rgb(254, 249, 250);
+    border-right: none;
+}
+.showInvalid .my_text_editor{
+    border-right: 1px solid rgb(250, 198, 204);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+

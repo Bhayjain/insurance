@@ -1,0 +1,61 @@
+@import "../../../../common-assets/css/variables";
+@import "../../../../common-assets/css/yaybar";
+@import "../../../../common-assets/css/rootui-parts/plugin-yay";
+
+
+.yaybar.rui-yaybar .yaybar-wrap ul > li.yay-item-active > a {
+    color: #8bc240 !important;
+}
+
+html.rui-night-mode .yaybar.rui-yaybar .yaybar-wrap ul > li.yay-item-active > a {
+    color: #8bc240 !important;
+}
+
+.yaybar-wrap ul li a:focus {
+    outline: none !important;
+}
+.yaybar-wrap ul li:focus {
+    outline: none !important;
+}
+.yay-item-active:focus {
+    outline: none !important;
+}
+.yay-item-active a:focus {
+    outline: none !important;
+}
+
+
+.yaybar.rui-yaybar .yaybar-wrap ul > li.yay-item-active > a > span:not([class]) {
+    color: #8bc240 !important;
+}
+.yaybar.rui-yaybar .yaybar-wrap ul > li.yay-item-active > a > .yay-icon {
+    color:#8bc240 !important;
+}
+
+html.rui-night-mode .yaybar.rui-yaybar .yaybar-wrap ul > li.yay-item-active > a {
+    color: #8bc240 !important;
+}
+html.rui-night-mode .yaybar.rui-yaybar .yaybar-wrap ul > li.yay-item-active > a > span:not([class]) {
+    color: #8bc240 !important;
+}
+html.rui-night-mode .yaybar.rui-yaybar .yaybar-wrap ul > li.yay-item-active > a > .yay-icon {
+    color:#8bc240 !important;
+}
+// ss
+html.rui-night-mode .yaybar.rui-yaybar .yaybar-wrap ul > li.yay-item-active > a {
+    color:  #8bc240 !important;
+}
+html.rui-night-mode .yaybar.rui-yaybar .yaybar-wrap ul > li.yay-item-active > a::before {
+    background-color: #8bc240 !important;
+}
+.yay-item-active a {
+    color: #8bc240 !important;
+}
+html.rui-night-mode .yay-item-active a {
+    color:  #8bc240 !important;
+}
+
+.btn-warning {
+    background-color: #8bc240 !important;
+    border-color: #8bc240 !important;
+}

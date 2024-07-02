@@ -1,0 +1,57 @@
+@import "./rc-tree.scss";
+@import "../../../../common-assets/css/variables";
+.table thead th {
+    font-weight: 500;
+  }
+  .nav-pills .nav-link{
+    font-weight: 500;
+  }
+  .btn{
+      font-weight: 500;
+  }
+.grid_title{
+    padding: 10px 15px !important;
+    border-bottom: none !important;
+}
+.grid_title h1{
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+}
+
+.text_padding{
+    padding: 10px 35px;
+}
+.save_btn_new{
+text-align: end;
+ margin-top: 10px;
+}
+.erroe_messagre{
+    color: red;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
+html.rui-night-mode .rui-quill .ql-container{
+    border-color: #3c424c;
+}
+html.rui-night-mode .text_padding{
+    border-bottom: 1px solid #3c424c !important
+}
+textarea.form-control{
+    height: 70px;
+}
+.erroe_messagre{
+    font-style: italic;
+}
+.font_weight{
+    font-weight: 500
+}
+.model_body_new{
+    padding-bottom: 4px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.button_close_new{
+    text-align: end;
+    margin-top: 5px;
+}

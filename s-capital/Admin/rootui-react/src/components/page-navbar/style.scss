@@ -1,0 +1,83 @@
+.pooop{
+    margin-top: 8px;
+}
+.logo_imgg{
+    width: 108px !important;
+    height: 69px !important;
+}
+.home_nigt{
+    height: 37px;
+    width: auto;
+    margin-top: -11px;
+}
+//  3nd tooltipl
+.nav_home_icon {
+    position: relative;
+    margin-top: -14px;
+      // margin-right: 4px;
+    /* border-bottom: 1px dotted black; */
+  }
+  .nav_home_icon .icon_text_home {
+    visibility: hidden;
+    display: grid;
+    background-color: #272727;
+    color: #fff;
+    text-align: start;
+    border-radius: 6px;
+    padding: 5px 11px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1000;
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  
+  .nav_home_icon:hover .icon_text_home {
+    visibility: visible;
+  }
+  
+  .nav_home_icon .icon_text_home::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 45%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+  .home_img{
+    height: 45px;
+    width: auto;
+    margin-top: -18px;
+  }
+
+
+.lottie-container svg path {
+  stroke-width: 70px;
+  fill: #8bc240;
+  stroke: #8bc240;
+  }
+
+  .lottie-container{
+    margin-top: 7px;
+  }
+
+   .my_profile_nav_bar img{
+    justify-content: center;
+    margin-bottom: 0;
+    font-size: 1.145rem;
+    line-height: 0;
+    color: #d7d9e0;
+    background-color: #f8f9fa;
+    border-radius: 100%;
+    transition: opacity .15s ease-in-out,color .15s ease-in-out,background-color .15s ease-in-out;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-left: 1px;
+    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+   }
